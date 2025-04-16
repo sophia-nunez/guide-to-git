@@ -5,7 +5,7 @@ nav_order: 1
 ---
 # Git Setup
 {: .no_toc }
-When using Git, you'll need to configure your indentity so that any pushes are under your account. Furthermore, using Git in an IDE may require alternate setup or usage.
+When using Git, you'll need to configure your identity so that any pushes are under your account. Furthermore, using Git in an IDE may require alternate setup or usage.
 
 - TOC
 {:toc}
