@@ -43,6 +43,8 @@ To create a fork, do the following:
 
 You now have your own copy of the repo, and you can clone it to your computer to edit!
 
+---
+
 ## Modifying a Fork
 While you could make changes directly on the `main` branch of your fork, it’s recommended to create a **new branch** for each feature or fix you want to work on. This is because:
 
@@ -72,6 +74,8 @@ To make these changes:
 
    {: .note}
    > For more information on PRs, check out our [Pull Requests](https://sophia-nunez.github.io/guide-to-git/docs/advanced/pull-request.html) page!
+
+---
 
 ## Sync Your Fork
 The original repository you forked may change over time as others contribute. To keep your fork current and avoid merge conflicts, it's important to regularly **sync** your fork. This can be done on GitHub or in your command line.
