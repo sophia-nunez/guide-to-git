@@ -1,7 +1,7 @@
 ---
-title: Branches
+title: Branch
 parent: Advanced
-nav_order: 1
+nav_order: 0
 ---
 
 # Git Branches
@@ -56,6 +56,11 @@ $ git branch
 You can also check all branches on the GitHub repository page. This can be found in the dropdown pictured below:
 
 ![Image of dropdown on GitHub that shows all branches of the repository](/guide-to-git/assets/images/branch-list.png)
+
+In this menu, you can create a branch by typing a new branch name into the search bar. The option to create a new branch will appear as below:
+
+![Image branch list displaying the create branch buttong](/guide-to-git/assets/images/create-branch.png)
+*Click the option circled in red to create a branch with the name entered.*
 
 ### Combining Branches
 Once you've completed making changes and are done with the branch, you can either merge it back into main or rebase your changes. For more information on the rebasing and how it differs from merging, check out our [Rebase page](https://sophia-nunez.github.io/guide-to-git/docs/advanced/rebase.html). 

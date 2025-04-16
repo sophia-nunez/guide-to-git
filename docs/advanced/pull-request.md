@@ -1,5 +1,5 @@
 ---
-title: Pull Requests
+title: Pull Request
 parent: Advanced
 nav_order: 2
 ---
@@ -15,7 +15,7 @@ Pull requests (PRs) are a way to propose changes to a project on GitHub. Instead
 
 ## Introduction
 
-A **pull request** is a way to ask that your branch be merged into another branch — typically `main`. It’s commonly used in team projects where code is reviewed before it’s added to the main codebase.
+A **pull request** is a way to ask that your branch or fork be merged into another — typically `main`. It’s commonly used in team projects where code is reviewed before it’s added to the main codebase.
 
 Pull requests show:
 - What files and lines of code were changed
@@ -43,15 +43,15 @@ Here are some terms you’ll see when working with pull requests:
 
 ## How to Submit a Pull Request
 Once you’ve pushed your branch to GitHub, you can submit a pull request using the GitHub website:
-
-1. Go to the main page of the repository on GitHub.
-    2. GitHub may suggest your recently pushed branch — click **Compare & pull request**.
-3. Otherwise, click the **Pull Requests** tab and then **New pull request**.
-
+1. Go to the main page of the repository on GitHub and click on the **Pull Requests** tab.
+2. GitHub should suggest your recently pushed branch — click **Compare & pull request**.
+    ![Image of compare & pull request button automatically shown on GitHub](/guide-to-git/assets/images/compare-and-pull.png)
+    3. Otherwise, click **New pull request**.
     ![Image of new pull request button on GitHub](/guide-to-git/assets/images/pull-request-button.png)
     *Note that the tab selected in the top left of the page is **Pull Requests**.*<br>
 4. Choose your **base branch** (usually `main`) and **compare branch** (your feature or debug branch).
-5. Review the changes, write a **title** and **description**, then click **Create pull request**.
+5. Review the changes, write a **title** and **description**, then click **Create pull request**:
+    ![Image of the Pull Request submission page](/guide-to-git/assets/images/pull-request-submission.png)
 
 With these steps, your PR will be open and ready for feedback or approval.
 

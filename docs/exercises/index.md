@@ -196,7 +196,7 @@ This exercise can be done on GitHub or from the command line. We recommend tryin
 </details>
 
 ## Exercise 6: Fork a repo and create a PR (requires a partner)
-Create a repo. Have a partner fork your repo and submit a pull request.
+Create a repo. Have a partner fork your repo and submit a pull request. This uses material from our page on [Forks](https://sophia-nunez.github.io/guide-to-git/docs/advanced/fork.html)
 
 <details markdown="block">
 <summary> Show Instructions</summary>

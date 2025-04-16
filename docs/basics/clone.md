@@ -59,7 +59,7 @@ Resolving deltas: 100% (18/18), done.
 After running `git clone`, there should be a new folder inside your current one named after the repository that was cloned. The latest version of all of the files in the remote repository should show up here!
 
 ### Alternative uses of the URL
-In some IDEs, you may be able to clone using a built-in view or function. For more information on this, check out our page on [Git in IDEs](https://sophia-nunez.github.io/guide-to-git/docs/basics/)!
+In some IDEs, you may be able to clone using a built-in view or function. For more information on this, check out our page on [Git in IDEs](https://sophia-nunez.github.io/guide-to-git/docs/basics/configuration.html#using-git-in-ides)!
 
 ---
 

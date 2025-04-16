@@ -29,9 +29,9 @@ Clicking on any of these commits will show you a list of the files changed in th
 To push your local commits to the remote repository, use the `git push` command. 
 
 {: .warning}
-> You should always [pull](https://sophia-nunez.github.io/guide-to-git/docs/basics/pull/html) before pushing your changes. This ensures that you can handle any areas where changes made to the code locally conflict with updates made to the remote repository since your last pull.
+> You should always [pull](https://sophia-nunez.github.io/guide-to-git/docs/basics/pull.html) before pushing your changes. This ensures that you can handle any areas where changes made to the code locally conflict with updates made to the remote repository since your last pull.
 >
->For more information on these conflicts, check out our page on [Merge Conflicts](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/)!
+>For more information on these conflicts, check out our page on [Merge Conflicts](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.md)!
 
 To use `git push`, run the following command in your terminal:
 
