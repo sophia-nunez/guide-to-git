@@ -97,5 +97,5 @@ Git has many more commands, and each of these (incuding the ones in this guide) 
 
 This guide will not cover all of these in detail - we recommend checking out the [official documentation](https://git-scm.com/doc) for specific cases!
 
-(: .note)
+{: .note}
 The documentation for Git assumes prior knowledge and may be confusing for beginners. Don't worry if this material is difficult to understand at first!
