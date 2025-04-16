@@ -13,10 +13,11 @@ Visit our website [here](https://sophia-nunez.github.io/guide-to-git/) to read a
 designed for beginners, especially students working on projects for the first time. 
 
 ### Sections
-The **Basics** section will introduce git and the basic commands you need to know, whether you're working solo or in a group.
-The **Intermediate** section covers commands and topics not needed as a beginner, but that you may begin seeing as you use Git more often.
-The **Advanced** section is made for more complicated topics, such as branches and various merge conflicts.
+- The **Basics** section will introduce git and the basic commands you need to know, whether you're working solo or in a group.
+- The **Intermediate** section covers commands and topics not needed as a beginner, but that you may begin seeing as you use Git more often.
+- The **Advanced** section is made for more complicated topics, such as branches and various merge conflicts.
+- The **Troubleshooting** section focused on navigating situations when things go wrong. If you ever run into issues with file changes, check here for more information.
+- Our last section is the Exercises tab. Check out this page for practice scenarios. Work on handling merge conflicts and forking repos using our tutorials - if you ever get stuck, each scenario has an associated solution for you to check out!
 
-We also have a **Troubleshooting** section focused on navigating situations when things go wrong. If you ever run into issues with file changes, check here for more information.
-
-Our last section is the Exercises tab. Check out this page for practice scenarios. Work on handling merge conflicts and forking repos using our tutorials - if you ever get stuck, each scenario has an associated solution for you to check out!
+### Feedback Form (Coming soon)
+We will soon add a Google form to our page for you to submit feedback on our guide. If you run into any issues or areas that need improvement - or you just really like our guide - let us know!
