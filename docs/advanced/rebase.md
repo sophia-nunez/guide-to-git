@@ -15,7 +15,7 @@ Rebase is an alternative to merge in Git. This applies your local commits on top
 
 ---
 
-## What is a Rebase?
+## Introduction
 When working on a project with others, your local branch may fall behind the main branch on the remote repository. `git rebase` lets you take the changes from your branch and apply them *on top of* the latest commits from another branch. This helps create a cleaner commit history by avoiding unnecessary merge commits.
 
 ### Rebase vs Merge

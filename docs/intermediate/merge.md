@@ -12,7 +12,7 @@ Merge conflicts happen when Git can't automatically combine changes from two sou
 
 ---
 
-## What Is a Merge Conflict?
+## Introduction
 A **merge conflict** occurs when Git tries to merge two [branches](https://sophia-nunez.github.io/guide-to-git/docs/advanced/branches.html) and encounters changes to the same parts of the same file that it can’t automatically reconcile. For example:
 
 - Two people edited the same line in a file.

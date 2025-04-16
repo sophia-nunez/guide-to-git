@@ -13,7 +13,7 @@ Using SSH to connect to GitHub allows you to securely push and pull without typi
 
 ---
 
-## What Is an SSH Key?
+## Introduction
 An **SSH key** is a pair of secure cryptographic keys used to identify you when connecting to remote servers like GitHub. When set up, it allows Git to authenticate with GitHub without needing your username and password.
 
 ---

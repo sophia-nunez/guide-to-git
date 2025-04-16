@@ -12,7 +12,7 @@ The `git reset` command is used to undo changes in your Git history. It can move
 
 ---
 
-## What is Git Reset?
+## Introduction
 `git reset` works by changing where your current branch is pointing. You can use it to:
 
 - Unstage files that were added with `git add`

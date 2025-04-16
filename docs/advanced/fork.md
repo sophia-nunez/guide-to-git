@@ -13,7 +13,7 @@ Forking is a way to make a personal copy of someone else's repository. It's comm
 
 ---
 
-## What Is a Fork?
+## Introduction
 
 A **fork** is your copy of someone else's GitHub repository. When you fork a repository:
 
