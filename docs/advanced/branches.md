@@ -14,7 +14,7 @@ Branches let you work on different versions of a project without affecting the m
 ---
 
 ## Introduction
-When you’re working on a project, you often want to make changes or try new ideas without affecting the current working version. Git lets you do this by using **branches**. A branch is like a separate workspace where you can try out changes. Later, you can bring those changes back into the main project by **merging** or **rebasing**.
+When you’re working on a project, you often want to make changes or try new ideas without affecting the current working version. Git lets you do this by using branches. A branch is like a separate workspace where you can try out changes. Later, you can bring those changes back into the main project by **merging** or **rebasing**.
 
 By default, Git starts with one branch, usually called `main`. This is what most beginners or small projects use. When you create a new branch, it copies the current state of the project and lets you build from there.
 
@@ -31,22 +31,21 @@ Here are some key terms related to branching:
 ### When to use Branches
 Branches are useful anytime you want to make changes without affecting the main code:
 
-- Add a new feature: Create a feature branch while developing.
-- Fix a bug: Make a debug branch so you can test without breaking other code.
-- Experiment: Try something new without worrying about damaging the current project.
+- **Add a new feature**: Create a feature branch while developing.
+- **Fix a bug**: Make a debug branch so you can test without breaking other code.
+- **Experiment**: Try something new without worrying about damaging the current project.
 
 ---
 
 ## How to Branch
 ### Creating Branches
-When you create a new branch, Git creates a pointer to the current commit. Any new commits you make on that branch stay separate from the `main` branch. You can switch between branches at any time using `git checkout` or the newer `git switch` command.
+When you create a new branch, Git creates a pointer or reference to the current commit. Any new commits you make on that branch stay separate from the `main` branch. You can switch between branches at any time using `git checkout` or the `git switch` command.
 
-Here’s how to create and switch to a new branch:
+`git checkout` can create a new branch called and switch you to it. Here’s how to create and switch to a new branch:
 
 ```bash
 $ git checkout -b [branchname]
 ```
-This creates a new branch called feature-branch and switches you to it.
 
 You can see all branches in your repository with:
 ```bash
@@ -85,6 +84,6 @@ $ git push origin [branchname]
 ```
 
 {: .note}
-> Depending on how project structure or management, you may need to submit a **pull request** rather than directly merging or rebasing. Check out our page on [Pull Requests](https://sophia-nunez.github.io/guide-to-git/docs/advanced/pull-request.html) for more information!
+> Depending on the project structure or management, you may need to submit a **pull request** rather than directly merging or rebasing. Check out our page on [Pull Requests](https://sophia-nunez.github.io/guide-to-git/docs/advanced/pull-request.html) for more information!
 
 --- 

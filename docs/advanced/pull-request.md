@@ -23,7 +23,7 @@ Pull requests show:
 - Discussion and comments between collaborators
 - Whether the branch can be automatically merged or has conflicts
 
-PRs are essential for collaboration because they let others **review**, **test**, and **approve** your code before it’s added.
+PRs are essential for collaboration because they let others **review**, **test**, and **approve** your code before it’s added. In large projects, the ability to approve requests is typically limited to a few members in the group. This allows these experienced individuals to focus on management.
 
 ---
 
@@ -62,9 +62,9 @@ With these steps, your PR will be open and ready for feedback or approval.
 Once a pull request is submitted, here are a few things that can happen:
 
 - **Approval**: If everything looks good, someone with permission can click **Merge pull request**.
-- **Requested changes**: Reviewers might leave comments or request updates. You can make changes in your branch, commit them, and they will automatically appear in the same PR.
-- **Update with `main`**: If `main` has changed since you created your branch, you might need to **merge** or **rebase** to update your PR.
-- **Resolve merge conflicts**: If your PR has conflicts, GitHub will show a message. You’ll need to fix these locally or in the browser.
+- **Requested changes**: Reviewers might leave comments or request updates. You can make changes in your branch and commit them, and they will automatically appear in the same PR.
+- **Update with `main`**: If `main` has changed since you created your branch, you might need to **merge** or **rebase** to update your PR. This will allow you to define how you want areas of conflicting edits to be resolved if your changes are approved.
+    - **Resolve merge conflicts**: If your PR has conflicts, GitHub will show a message. You’ll need to fix these locally or in the browser.
 
-To close a pull request without merging (for example, if it’s no longer needed), click **Close pull request**.
+To close a pull request without merging (for example, if it’s no longer needed), go to the pull request and click **Close pull request**.
 

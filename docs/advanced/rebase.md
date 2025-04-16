@@ -9,6 +9,7 @@ Rebase is an alternative to merge in Git. This applies your local commits on top
 
 {: .warning}
 > This page uses branching terminology. We recommend reading our page on [branches](https://sophia-nunez.github.io/guide-to-git/docs/advanced/branches.html) to get familiar with these terms.
+
 <br>
 - TOC
 {:toc}
@@ -25,19 +26,19 @@ There are some key differences between merge and rebase for Git:
 - **Rebase** rewrites history to make it seem like your work was built off the latest main branch, creating a linear timeline.
     - Avoids unnecessary merge commits.
     - Cleans the history timeline.
-    - May result in more conflicts if any others are using the previous commit history.
+    - May result in more conflicts if any others are using the previous commit history and try to pull/push.
 
-In collaborative projects, merge is typically preferred in order to maintain the true history of changes made and prevent issues for other collaborators. Rebase is used on more personal branches, such as to clean up your branch history before merging into main.
+In group projects, merge is typically preferred in order to maintain the true history of changes made and prevent issues for other collaborators. Rebase is used on more personal branches, such as to clean up your branch history before merging into main.
 
 ---
 
 ## How to Rebase
-For our example, you’ve been working on a branch called `feature` while changes were made to the `main` branch.
+For our example, you’ve been working on a branch called `feature-1` while changes were made to the `main` branch.
 
-To rebase your `feature` branch onto the latest version of `main`, use `git checkout [branchname]` to switch to the appropriate branch. Once on the correct branch, run the rebase command using:
+To rebase your `feature-1` branch onto the latest version of `main`, use `git checkout [branchname]` to switch to the appropriate branch. Once on the correct branch, run the rebase command using:
 
 ```bash
-$ git checkout feature
+$ git checkout feature-1
 $ git pull origin main --rebase
 ```
 
@@ -63,4 +64,3 @@ You can use a `--rebase` flag to automatically rebase when pulling. This is done
 ```bash
 $ git pull --rebase
 ```
----

@@ -57,3 +57,6 @@ While working with Git, there are some important terms to remember:
     - **Modified**: The file has been changed but not staged. Git has not been told to track the changes for this file yet.
     - **Staged**: The changed file has been marked to go into your next commit in its current version.
     - **Committed**: The change has been saved in Git's history and is now part of the local repository.
+
+{: .note}
+> In this guide, sections of the page are code blocks representing command line input/output. For ease of reading, lines which are user input being with `$`. This sybmol does **not** need to be typed into the terminal when executing the commands.

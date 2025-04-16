@@ -40,21 +40,24 @@ Here are the most common ways to use `git reset`:
     $ git reset <file>
     ```
     This removes the file from the staging area, but keeps your changes in the working directory.
+
 2. Soft reset
     ```bash
     $ git reset --soft <commit>
     ```
-    Undoes recent commits. Moves the branch pointer back by one commit but keeps all your changes staged.
+    Undoes recent commits. Moves the branch pointer back to the given commit but keeps all your changes staged.
+
 3. Mixed reset
     ```bash
     $ git reset --mixed <commit>
     ```
     Undoes commits and unstage changes. Moves the branch pointer back and unstages the changes, but keeps them in your working directory.
+
 4. Hard reset
     ```bash
     $ git reset --hard <commit>
     ```
-    Discards commits and changes. This deletes the last commit and all changes in your working directory.
+    Discards commits and changes. This deletes the commit in the history after the given commit and all changes in your working directory.
 
 {: .warning}
 > Hard resets cannot be undone easily. Use this command with extreme caution. Check out this site on [git reflog](https://github.blog/open-source/git/how-to-undo-almost-anything-with-git/#redo-after-undo-local) if for more information.
@@ -63,7 +66,6 @@ Here are the most common ways to use `git reset`:
 In each of the command options above, `<commit>` represents a commit reference. You can specify a specific commit SHA or branch name here.
 
 Here are some common types of commit references:
-
 - **`HEAD`**  
   Refers to your current position in the repository (usually the latest commit on your branch).
 
@@ -71,14 +73,15 @@ Here are some common types of commit references:
   Refers to the commit *n* steps before the current one. For example, `HEAD~1` is one commit ago, `HEAD~3` is three commits ago.
 
 - **`HEAD^`**  
-  Refers to the parent of the current commit. Similar to `HEAD~1`, but used when dealing with merge commits. For example, `HEAD^2` refers to the second parent of a merge.
+  Refers to the parent of the current commit, or the commit which a merge was applied to. Similar to `HEAD~1`, but used when dealing with merge commits. For example, `HEAD^2` refers to the second parent of a merge.
 
 - **Commit SHA**  
-  Every Git commit has a unique hash (SHA). This can be found in your repository's commit history or in your terminal using:
+  Every Git commit has a unique hash (SHA). This can be found in your repository's commit history, or in your terminal using:
+
   ```bash
   $ git log
   ```
-  Included in this output will be a line starting with `commit` - the text after that is the commit SHA. An example SHA might be `d94b5f7ec7c6d7602c78a5e9b8a5b8c94d093eda`.
+  Included in this output will be a line starting with `commit` - the text after that is the commit SHA. An example SHA might be `d94b5f7ec7c6d7602c78a5e7b8a5b8c54d093eda`.
 
 - **Branch name**
-    You can also use a branch name to reference the latest commit on that branch (e.g., `main` or `feature`).
+    You can also use a branch name to reference the latest commit on that branch (e.g., `main` or `my-branch`).

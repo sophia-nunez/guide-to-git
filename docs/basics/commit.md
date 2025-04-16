@@ -13,17 +13,17 @@ Commiting records the snapshots of you files in the staging area, putting them i
 ---
 
 ## Commit Messages
-When commiting your revisions, you should add a message to describe what changes were made since the last commit. This will show up in the commit history on your repository, and lets you and others keep track of when certain changes may have been made.
+When commiting your revisions, you should add a message to describe what changes were made since the last commit. This will show up in the **commit history** on your repository, and lets you and others keep track of when certain changes may have been made.
 
 Commit messages don't have a specific formatting they have to follow. However, it's typically a good idea to include certain keywords depending on the types of changes made. A good starter rule is to include these in brackets at the beginning of your message, followed by a brief sentence or two providing more detail.
 
 Some of these keywords may include:
-- Skeleton: When making the skeleton for your project, such as adding empty class files and method headers.
-- Implementation: When adding functionality to your program, such as implementing methods.
-- Test: When writing or modifying tests for your program, such as adding unit tests for a class.
-- STP: When writing or modifying a System Test Plan for your project.
-- Debug: When making changes on an implemented file to fix an error, failing test, or other bug.
-- Javadoc: When adding or updating Javadoc in your files.
+- **Skeleton**: When making the skeleton for your project, such as adding empty class files and method headers.
+- **Implementation**: When adding functionality to your program, such as implementing methods.
+- **Test**: When writing or modifying tests for your program, such as adding unit tests for a class.
+- **STP**: When writing or modifying a System Test Plan for your project.
+- **Debug**: When making changes on an implemented file to fix an error, failing test, or other bug.
+- **Javadoc**: When adding or updating Javadoc in your files.
 
 Examples of a commit message you may see include:
 - "[Implementation] Added functionality for the RecipeBook class."

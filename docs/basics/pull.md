@@ -13,7 +13,7 @@ Pulling updates your local repository with any new commits on the remote reposit
 ---
 
 ## Introduction
-The `git pull` command combines fetching and merging - topics covered in our Advanced section. Essentially, it takes new commits from the remote repository and brings them to your computer by combining the local and new versions together. 
+The `git pull` command combines fetching and merging. Essentially, it takes new commits from the remote repository and brings them to your computer by combining the local and new versions together. 
 
 You should always pull before starting to make changes and before pushing in order to reduce any conflicting edits.
 
@@ -98,8 +98,8 @@ Merge branch 'main' of https://github.com/sophia-nunez/guide-to-git
 "~/git/guide-to-git-1/.git/MERGE_MSG" [unix] 6L, 294B
 ```
 This is indicating that a merge was done automatically and prompting you to write a merge message for the commit history. The editor this file opens in is the default for your computer, which is usually VI. To finish the merge, write a message and quit by doing the following:
-1. `i` to enter Insert mode and write your message.
-2. `esc` to enter command mode.
+1. `i` to enter **Insert mode** and write your message.
+2. `esc` to enter **Command mode**.
 3. `:wq` to save and exit, or `:q` to exit without saving.
 
 {: .note}

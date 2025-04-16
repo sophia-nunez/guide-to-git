@@ -22,7 +22,7 @@ Before doing anything you can use the command `git status` to check:
 
 For example:
 ```bash
-git status
+$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -33,8 +33,8 @@ nothing to commit, working tree clean
 If you made any changes to files but did not stage them, like the example below:
 
 ```bash
-echo “.json” >> .gitignore
-git status
+$ echo “.json” >> .gitignore
+$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -49,8 +49,8 @@ no changes added to commit (use "git add" and/or "git commit -a")
 You can use `git restore <file>`  as shown below to discard the changes:
 
 ```bash
-git restore .gitignore
-git status
+$ git restore .gitignore
+$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -61,9 +61,9 @@ nothing to commit, working tree clean
 If you made any changes to files and already staged them, like the example below:
 
 ```bash
-rm .gitignore
-git add .gitignore
-git status
+$ rm .gitignore
+$ git add .gitignore
+$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -78,10 +78,10 @@ You can use `git restore --staged <file>` to discard the stage. If you only modi
 If you deleted the file, you need another `git restore <file>` to recover the deleted file:
 
 ```bash
-git restore --staged .gitignore
-git status
-git restore .gitignore
-git status
+$ git restore --staged .gitignore
+$ git status
+$ git restore .gitignore
+$ git status
 On branch main
 Your branch is up to date with 'origin/main'.
 
@@ -102,10 +102,10 @@ nothing to commit, working tree clean
 If you have made changes to the files and already committed the changes, like the example below:
 
 ```bash
-echo ".java" >> .gitignore
-git add .gitignore
-git commit -m "Bad change"
-git status
+$ echo ".java" >> .gitignore
+$ git add .gitignore
+$ git commit -m "Bad change"
+$ git status
 warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
 [main 1b64be4] Bad change
  1 file changed, 1 insertion(+)
@@ -119,8 +119,8 @@ nothing to commit, working tree clean
 You can use the command `git reset --hard HEAD~1`, which will undo the last commit and discard the changes:
 
 ```bash
-git reset --hard HEAD~1
-git status
+$ git reset --hard HEAD~1
+$ git status
 HEAD is now at fb8fe62 Add .gitignore to ignore sensitive files
 On branch main
 Your branch is up to date with 'origin/main'.
@@ -134,11 +134,11 @@ The last commit and changes have been discarded as shown above.
 If you have made changes to the files and already pushed the changes, like the example below:
 
 ```bash
-echo ".java" >> .gitignore
-git add .gitignore
-git commit -m "Bad change"
-git push origin main
-git status
+$ echo ".java" >> .gitignore
+$ git add .gitignore
+$ git commit -m "Bad change"
+$ git push origin main
+$ git status
 warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
 [main d250a24] Bad change
  1 file changed, 1 insertion(+)
@@ -157,7 +157,7 @@ nothing to commit, working tree clean
 You would need the command `git log` to check the commit hash of the previous commit:
 
 ```bash
-git log
+$ git log
 commit d250a24135028a8881a19fb185dc43adba9c10b8 (HEAD -> main, origin/main)
 Author: author email-address
 Date:   Sun Apr 12 22:47:37 2025 -0400
@@ -179,7 +179,7 @@ Then you can use the command `git revert -n <commit-hash>` to undo the change ma
 Then, you need to commit the change with a message using `git commit -m “any message you want”`:
 
 ```bash
-git revert -n ab6bd5ac639867ce9dfe2b4c769b9249b6073b43 && git commit -m "Revert bad change"
+$ git revert -n ab6bd5ac639867ce9dfe2b4c769b9249b6073b43 && git commit -m "Revert bad change"
 [main fce4275] Revert bad change
  1 file changed, 1 deletion(-)
 ```
@@ -189,7 +189,7 @@ git revert -n ab6bd5ac639867ce9dfe2b4c769b9249b6073b43 && git commit -m "Revert 
 Commands:
 
 ```bash
-git push origin main
+$ git push origin main
 Enumerating objects: 5, done.
 Counting objects: 100% (5/5), done.
 Writing objects: 100% (3/3), 249 bytes | 124.00 KiB/s, done.

@@ -54,8 +54,6 @@ remote: Resolving deltas: 100% (4/4), completed with 4 local objects.
 To https://github.com/sophia-nunez/guide-to-git.git
    9bc8202..bba9521  main -> main
 ```
-As noted above, pulling before you push is important. If you recieve an error message after pushing, check out our Troubleshooting and Merge Conflict pages.
+As noted above, pulling before you push is important. If you recieve an error message after pushing, check out our [Troubleshooting](https://sophia-nunez.github.io/guide-to-git/docs/troubleshooting.html) and [Merge Conflict](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html) pages.
 
 Once you get the output indicating the push was a success, your commits should now appear on the page for your repository on GitHub!
-
----

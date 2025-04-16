@@ -40,6 +40,9 @@ Untracked files:
 
 no changes added to commit (use "git add" and/or "git commit -a") 
 ```
+
+--- 
+
 ## `git remote`
 This command shows the remote repositories that your local project is connected to. Run it using the following:
 
@@ -93,7 +96,7 @@ $ git diff --staged
 ---
 
 ## More commands
-Git has many more commands, and each of these (incuding the ones in this guide) have many additional arguments that can be added on for a more fine-tuned execution. 
+Git has many more commands, and each of these (including the ones in this guide) have many additional arguments that can be added on for a more fine-tuned execution. 
 
 This guide will not cover all of these in detail - we recommend checking out the [official documentation](https://git-scm.com/doc) for specific cases!
 
