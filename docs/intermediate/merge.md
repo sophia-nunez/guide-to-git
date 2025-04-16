@@ -1,7 +1,7 @@
 ---
 title: Merge Conflicts
 parent: Intermediate
-nav_order: 4
+nav_order: 1
 ---
 # Merge Conflicts  
 {: .no_toc}
