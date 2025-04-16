@@ -20,4 +20,4 @@ designed for beginners, especially students working on projects for the first ti
 - Our last section is the Exercises tab. Check out this page for practice scenarios. Work on handling merge conflicts and forking repos using our tutorials - if you ever get stuck, each scenario has an associated solution for you to check out!
 
 ### Feedback Form (Coming soon)
-We will soon add a Google form to our page for you to submit feedback on our guide. If you run into any issues or areas that need improvement - or you just really like our guide - let us know!
+Our guide has a feedback form that can be accessed [here](https://forms.gle/Lda3NkTHPot3EX4P7). If you run into any issues or areas that need improvement - or you just really like our guide - let us know!
