@@ -86,4 +86,24 @@ $ git push origin [branchname]
 {: .note}
 > Depending on the project structure or management, you may need to submit a **pull request** rather than directly merging or rebasing. Check out our page on [Pull Requests](https://sophia-nunez.github.io/guide-to-git/docs/advanced/pull-request.html) for more information!
 
---- 
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <p>
+         
+  </p>
+
+  <a href="/guide-to-git/docs/advanced/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Advanced
+  </a>
+
+  <a href="/guide-to-git/docs/advanced/fork.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Fork →
+  </a>
+</div>

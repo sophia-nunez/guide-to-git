@@ -64,3 +64,28 @@ You can use a `--rebase` flag to automatically rebase when pulling. This is done
 ```bash
 $ git pull --rebase
 ```
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <a href="/guide-to-git/docs/advanced/pull-request.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ← Pull Request
+  </a>
+
+  <a href="/guide-to-git/docs/advanced/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Advanced
+  </a>
+
+  <a href="/guide-to-git/docs/advanced/reset.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Git Reset →
+  </a>
+</div>

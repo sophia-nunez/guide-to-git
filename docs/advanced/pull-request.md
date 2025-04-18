@@ -68,3 +68,28 @@ Once a pull request is submitted, here are a few things that can happen:
 
 To close a pull request without merging (for example, if it’s no longer needed), go to the pull request and click **Close pull request**.
 
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <a href="/guide-to-git/docs/advanced/fork.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ← Fork
+  </a>
+
+  <a href="/guide-to-git/docs/advanced/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Advanced
+  </a>
+
+  <a href="/guide-to-git/docs/advanced/rebase.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Git Rebase →
+  </a>
+</div>

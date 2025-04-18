@@ -61,7 +61,7 @@ $ git commit -m "Favicon replaced with favicon-2"
      style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
      onmouseover="this.style.backgroundColor='#f5f6fa'" 
      onmouseout="this.style.backgroundColor='transparent'">
-     ← Back: Git Add
+     ← Git Add
   </a>
 
   <a href="/guide-to-git/docs/basics/" 
@@ -75,6 +75,6 @@ $ git commit -m "Favicon replaced with favicon-2"
      style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
      onmouseover="this.style.backgroundColor='#f5f6fa'" 
      onmouseout="this.style.backgroundColor='transparent'">
-     Next: Git Pull →
+     Git Pull →
   </a>
 </div>

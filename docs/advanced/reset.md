@@ -85,3 +85,28 @@ Here are some common types of commit references:
 
 - **Branch name**
     You can also use a branch name to reference the latest commit on that branch (e.g., `main` or `my-branch`).
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <a href="/guide-to-git/docs/advanced/rebase.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ← Git Rebase
+  </a>
+
+  <a href="/guide-to-git/docs/advanced/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Advanced
+  </a>
+
+  <a href="/guide-to-git/docs/advanced/ssh.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     SSH Key →
+  </a>
+</div>

@@ -72,3 +72,28 @@ If this folder is missing or deleted, Git commands will stop working. You can re
 ```bash
 $ git init
 ```
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <a href="/guide-to-git/docs/intermediate/status.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ← Additional Commands
+  </a>
+
+  <a href="/guide-to-git/docs/intermediate/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Intermediate
+  </a>
+
+  <a href="/guide-to-git/docs/intermediate/privacy.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Privacy →
+  </a>
+</div>

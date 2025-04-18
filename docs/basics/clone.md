@@ -80,7 +80,7 @@ Cloning sets up the connection between your local and remote repositories, makin
      style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
      onmouseover="this.style.backgroundColor='#f5f6fa'" 
      onmouseout="this.style.backgroundColor='transparent'">
-     ← Back: Setup
+     ← Setup
   </a>
 
   <a href="/guide-to-git/docs/basics/" 
@@ -94,6 +94,6 @@ Cloning sets up the connection between your local and remote repositories, makin
      style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
      onmouseover="this.style.backgroundColor='#f5f6fa'" 
      onmouseout="this.style.backgroundColor='transparent'">
-     Next: Git Add →
+     Git Add →
   </a>
 </div>

@@ -103,6 +103,6 @@ To use Git in Eclipse, an extension is needed. There are many our there, but EGi
      style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
      onmouseover="this.style.backgroundColor='#f5f6fa'" 
      onmouseout="this.style.backgroundColor='transparent'">
-     Next: Git Clone →
+     Git Clone →
   </a>
 </div>

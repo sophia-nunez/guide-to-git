@@ -60,3 +60,22 @@ While working with Git, there are some important terms to remember:
 
 {: .note}
 > In this guide, sections of the page are code blocks representing command line input/output. For ease of reading, lines which are user input being with `$`. This sybmol does **not** need to be typed into the terminal when executing the commands.
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <p>
+   
+   </p>
+
+  <p>
+   
+    </p>
+
+  <a href="/guide-to-git/docs/basics/index.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Basics →
+  </a>
+</div>

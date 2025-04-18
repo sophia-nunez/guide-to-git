@@ -224,3 +224,25 @@ Following this methodology for code can also be beneficial. Even if a file can�
 
 **Method 4: Smart teamwork**
 Dividing tasks so that multiple developers are not editing the same files/code can help prevent merge conflicts. However, this may not be possible in every scenario. If it is necessary for multiple developers to work on the same pieces of code, communicating with each other and pulling/pushing when necessary will reduce the likelihood of a merge conflict.
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <p>
+        
+  </p>
+
+  <a href="/guide-to-git/docs/intermediate/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Intermediate
+  </a>
+
+  <a href="/guide-to-git/docs/intermediate/status.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Additional Commands →
+  </a>
+</div>

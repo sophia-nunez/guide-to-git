@@ -102,3 +102,28 @@ This guide will not cover all of these in detail - we recommend checking out the
 
 {: .note}
 The documentation for Git assumes prior knowledge and may be confusing for beginners. Don't worry if this material is difficult to understand at first!
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <a href="/guide-to-git/docs/intermediate/merge.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ← Merge Conflicts
+  </a>
+
+  <a href="/guide-to-git/docs/intermediate/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Intermediate
+  </a>
+
+  <a href="/guide-to-git/docs/intermediate/git-files.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Git Files →
+  </a>
+</div>
