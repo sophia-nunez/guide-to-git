@@ -84,3 +84,25 @@ To use Git in Eclipse, an extension is needed. There are many our there, but EGi
 
 {: .note}
 > While IDEs may provide special views for using Git, the commands given in this guide can always be used in a terminal or shell such as Git Bash.
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <p>
+   
+  </p>
+
+  <a href="/guide-to-git/docs/basics/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Basics
+  </a>
+
+  <a href="/guide-to-git/docs/basics/clone.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Next: Git Clone →
+  </a>
+</div>

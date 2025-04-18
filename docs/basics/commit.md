@@ -53,3 +53,28 @@ $ git commit -m "Favicon replaced with favicon-2"
 
 {: .note }
 > At this point, our changes are still confined to the local repository. In order to update the remote repository, make sure to [push](https://sophia-nunez.github.io/guide-to-git/docs/basics/push.html) your commits!
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <a href="/guide-to-git/docs/basics/add.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ← Back: Git Add
+  </a>
+
+  <a href="/guide-to-git/docs/basics/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Basics
+  </a>
+
+  <a href="/guide-to-git/docs/basics/pull.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Next: Git Pull →
+  </a>
+</div>

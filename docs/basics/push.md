@@ -57,3 +57,25 @@ To https://github.com/sophia-nunez/guide-to-git.git
 As noted above, pulling before you push is important. If you recieve an error message after pushing, check out our [Troubleshooting](https://sophia-nunez.github.io/guide-to-git/docs/troubleshooting.html) and [Merge Conflict](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html) pages.
 
 Once you get the output indicating the push was a success, your commits should now appear on the page for your repository on GitHub!
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <a href="/guide-to-git/docs/basics/pull.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ← Back: Git Pull
+  </a>
+
+  <a href="/guide-to-git/docs/basics/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Basics
+  </a>
+
+  <p>
+   
+  </p>
+</div>

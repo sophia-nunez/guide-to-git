@@ -123,3 +123,28 @@ Merge made by the 'ort' strategy.
 
 {: .warning}
 > In the case that changes between the versions conlict, such as edits made to the same line in a file, you may have to handle the merge conflict yourself. This topic is covered in more depth on our [Merge Conflicts](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html) page!
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <a href="/guide-to-git/docs/basics/commit.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ← Back: Git Commit
+  </a>
+
+  <a href="/guide-to-git/docs/basics/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Basics
+  </a>
+
+  <a href="/guide-to-git/docs/basics/push.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Next: Git Push →
+  </a>
+</div>
