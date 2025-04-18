@@ -29,9 +29,24 @@ After using this command, you shouldn't see any additional output in the termina
 <hr/>
 
 <div style="display: flex; justify-content: space-between;">
-  <a href="/guide-to-git/docs/basics/clone.html" style="padding: 6px 12px; background-color: #e6ddf8; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" onmouseover="this.style.backgroundColor='#d4c4f2'" onmouseout="this.style.backgroundColor='#e6ddf8'">← Back: Git Clone</a>
-  
-  <a href="/guide-to-git/docs/basics/" style="padding: 6px 12px; background-color: #e6ddf8; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" onmouseover="this.style.backgroundColor='#d4c4f2'" onmouseout="this.style.backgroundColor='#e6ddf8'">↑ To Basics</a>
-  
-  <a href="/guide-to-git/docs/basics/commit.html" style="padding: 6px 12px; background-color: #e6ddf8; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" onmouseover="this.style.backgroundColor='#d4c4f2'" onmouseout="this.style.backgroundColor='#e6ddf8'">Next: Git Commit →</a>
+  <a href="/guide-to-git/docs/basics/clone.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ← Back: Git Clone
+  </a>
+
+  <a href="/guide-to-git/docs/basics/" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     ↑ To Basics
+  </a>
+
+  <a href="/guide-to-git/docs/basics/commit.html" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Next: Git Commit →
+  </a>
 </div>
