@@ -25,3 +25,13 @@ After using this command, you shouldn't see any additional output in the termina
 
 {: .note }
 >Using `git add` will add the specified files to the staging area as they are in that moment in time. Further revisions would need to be added again.
+
+<hr/>
+
+<div style="display: flex; justify-content: space-between;">
+  <a href="/guide-to-git/docs/basics/clone.html" style="padding: 6px 12px; background-color: #e6ddf8; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" onmouseover="this.style.backgroundColor='#d4c4f2'" onmouseout="this.style.backgroundColor='#e6ddf8'">← Back: Git Clone</a>
+  
+  <a href="/guide-to-git/docs/basics/" style="padding: 6px 12px; background-color: #e6ddf8; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" onmouseover="this.style.backgroundColor='#d4c4f2'" onmouseout="this.style.backgroundColor='#e6ddf8'">↑ To Basics</a>
+  
+  <a href="/guide-to-git/docs/basics/commit.html" style="padding: 6px 12px; background-color: #e6ddf8; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" onmouseover="this.style.backgroundColor='#d4c4f2'" onmouseout="this.style.backgroundColor='#e6ddf8'">Next: Git Commit →</a>
+</div>
