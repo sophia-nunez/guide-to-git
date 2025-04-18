@@ -13,12 +13,10 @@ Here are some exercises to apply what you've learned from the guide! You can wor
 ## Exercise 0: Configure Git
 Set up your Git identity! This includes materials from our [Setup](https://sophia-nunez.github.io/guide-to-git/docs/basics/configuration.html#identity-configuration) page.
 
-<details markdown="block">
-<summary> Show Instructions </summary>
+**Instructions**
 1. Configure your username.
 2. Configure your email.
 3. Display these.
-</details>
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
@@ -28,17 +26,18 @@ git config --global user.name "Your Name"
 git config --global user.email "your@email.com"
 git config --list
 ```
+
+Your final result should look similar to the following:
+    ![Image of console output displaying configurations](/guide-to-git/assets/images/Ex0/bash-output.png)
 </details>
 
 ## Exercise 1: Make your repository
 Create a private Git repository to track your work on GitHub. This uses content from our [Privacy](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/privacy.html#repository-privacy) page. Do this exercise from the GitHub page (we're NOT working from the terminal quite yet!).
 
-<details markdown="block">
-<summary>Show Instructions</summary>
+**Instructions**
 1. On GitHub, create a private repository named `practice`.
 2. Add a file named `exercise1.txt`.
 3. Commit the changes.
-</details>
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
@@ -48,19 +47,18 @@ Create a private Git repository to track your work on GitHub. This uses content 
 3. To add a file, click **Add file** --> **Create new file**
 4. Name this something, such as `exercise1.txt` and put text
 5. Click **Commit new file**
-
+6. Your final result should look similar to the following:
+    ![Image of GitHub displaying new repository](/guide-to-git/assets/images/Ex1/GitHub-result.png)
 </details>
 
 
 ## Exercise 2: Clone repo
 Clone your practice repo and enter the workspace so you can edit its contents locally. This exercise references our [Clone](https://sophia-nunez.github.io/guide-to-git/docs/basics/clone.html) page!
 
-<details markdown="block">
-<summary>Show Instructions</summary>
+**Instructions**
 1. On GitHub, find the cloning URL for your repository.
 2. Clone your repository in your command line.
 3. Change to the repository folder to edit the contents.
-</details>
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
@@ -70,17 +68,22 @@ Clone your practice repo and enter the workspace so you can edit its contents lo
 git clone https://github.com/sophia-nunez/guide-to-git.git
 cd [repo-name]
 ```
+
+3. Your final terminal output should look similar to the following:
+    ![Image of console output displaying clone and move to repo locally](/guide-to-git/assets/images/Ex2/bash-output.png)
+
+    Your workspace should have a similar structure as below:
+    ![Image of file explorer in the cloned repo's local workspace](/guide-to-git/assets/images/Ex2/local.png)
+
 </details>
 
 ## Exercise 3: Push Changes
 Make and edit a file, and add this to your remote repository. Use your terminal for this exercise to practice the [basic commands](https://sophia-nunez.github.io/guide-to-git/docs/basics/) of Git!
 
-<details markdown="block">
-<summary> Show Instructions</summary>
+**Instructions**
 1. Create a file called `hello.txt`.
 2. Stage the changes.
 3. Push to your repository.
-</details>
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
@@ -90,17 +93,22 @@ Make and edit a file, and add this to your remote repository. Use your terminal 
     ```
 2. Run `git add hello.txt`
 3. Run `git commit -m “Added hello.txt”`
+4. Your final terminal output should look similar to the following:
+    ![Image of console output displaying configurations](/guide-to-git/assets/images/Ex3/bash-output.png)
+    Your workspace in the file explorer on your computer should contain the following files:
+    ![Image of console output displaying configurations](/guide-to-git/assets/images/Ex3/local-output.png)
+
+    On GitHub, your commits should be displayed in a similar manner to this:
+    ![Image of console output displaying configurations](/guide-to-git/assets/images/Ex3/repo-output.png)
 </details>
 
 ## Exercise 4: Merge Conflicts (solo)
 Create a repo for yourself. Add a file called conflict.txt, and then get a [merge conflict](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html) to occur. Bonus points for solving the conflict!
 
-<details markdown="block">
-<summary>Show Instructions</summary>
+**Instructions**
 1. In your practice repository, add a file called `conflict.txt` and push this to the remote.
 2. Cause a merge conflict by editing files on GitHub, then locally.
 3. Resolve the conflict and push your local changes.
-</details>
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
@@ -119,19 +127,24 @@ Create a repo for yourself. Add a file called conflict.txt, and then get a [merg
     CONFLICT (content): Merge conflict in conflict.txt
     Automatic merge failed; fix conflicts and then commit the result.
     ```
+    For example, your terminal might look similar to the following:
+    ![Image of console output displaying merge conflict](/guide-to-git/assets/images/Ex4(solo)/bash-conflict.png)
+
 5. Fix the conflict by editing `conflict.txt` in either your IDE or in the command line. This process is demonstrated in detail in the example section of [Merge Conflicts](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html).
+    In the text editor, conflicting lines should be marked similar to the example below:
+    ![Image of text editor for conflicting file displaying areas of conflicting changes](/guide-to-git/assets/images/Ex4(solo)/merge-conflict.png)
+6. Pushing after fixing the conflict, your terminal output should look similar to the following:
+    ![Image of console output displaying resolved push](/guide-to-git/assets/images/Ex4(solo)/bash-resolved.png)
 </details>
 
 ## Exercise 4: Merge Conflicts (partner)
 Create a repository for you and your partner, or use the `practice` one. Cause a [merge conflict](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html) and try to resolve it. Bonus points for solving the conflict!
 
-<details markdown="block">
-<summary>Show Instructions</summary>
+**Instructions**
 1. Have you and your partner clone the same repository.
 2. Add a file called conflict.txt.
 3. Have both people edit the file to get a merge conflict to occur.
 4. Push each person's change and resolve the conflict.
-</details>
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
@@ -148,6 +161,9 @@ Create a repository for you and your partner, or use the `practice` one. Cause a
     CONFLICT (content): Merge conflict in conflict.txt
     Automatic merge failed; fix conflicts and then commit the result.
     ```
+    For example, your terminal might look similar to the following:
+    ![Image of console output displaying merge conflict](/guide-to-git/assets/images/Ex4(par)/bash-conflict.png)
+
 2. To fix the conflict, you can either edit conflict.txt in your IDE, or try the following commands:
     ```bash
     # accepting their changes
@@ -158,6 +174,10 @@ Create a repository for you and your partner, or use the `practice` one. Cause a
     # keeping our changes
     Git merge –strategy-option ours
     ```
+
+3. Pushing after fixing the conflict, your terminal output should look similar to the following:
+    ![Image of console output displaying resolved push](/guide-to-git/assets/images/Ex4(par)/bash-resolved.png)
+
 </details>
 
 ## Exercise 5: Create a branch for a repo and create a PR
@@ -165,13 +185,11 @@ Create a repo, or go to your `practice` one, and practice using branches. This r
 
 This exercise can be done on GitHub or from the command line. We recommend trying both options - just make two separate files!
 
-<details markdown="block">
-<summary> Show Instructions</summary>
+**Instructions**
 1. Create a branch called `exercise-5`.
 2. Add a file called **branch-practice.txt**.
 3. Commit and push your changes.
 4. Submit a pull request to merge `exercise-5` into main.
-</details>
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
@@ -192,20 +210,25 @@ This exercise can be done on GitHub or from the command line. We recommend tryin
         $ git commit -m "Add branch-practice.txt on exercise-5"
         ```
     5. Push the new branch using `git push -u origin exercise-5`.
-    6. Go to GitHub, where you should see a prompt to open a pull request. Click **Compare & pull request**, then **Merge**.
+    6. After running each of these commands, your terimanl output should look similar to the following:
+        ![Image of console output displaying branch creation and modifcation](/guide-to-git/assets/images/Ex5/bash-command.png)
+    6. Go to GitHub, where you should see a prompt to open a pull request:
+        ![Image of GitHub displaying compare & pull for branch](/guide-to-git/assets/images/Ex5/pull-request.png)
+        Click **Compare & pull request**, then **Merge**.
+3. After merging, your GitHub page should look similar to the following:
+    ![Image of GitHub showing branch merge in the commit history](/guide-to-git/assets/images/Ex5/after-merge.png)
+    *Note that the commit history has a merge, and the commit message made on your branch appears in main.*
 </details>
 
 ## Exercise 6: Fork a repo and create a PR (requires a partner)
 Create a repo. Have a partner fork your repo and submit a pull request. This uses material from our page on [Forks](https://sophia-nunez.github.io/guide-to-git/docs/advanced/fork.html)
 
-<details markdown="block">
-<summary> Show Instructions</summary>
+**Instructions**
 1. Fork the repository    
 2. Clone this fork
 3. Edit a file in the repository
 4. Commit and push these changes
 5. Submit a pull request and check GitHub
-</details>
 
 <details markdown="block">
 <summary>💡 Show Solution</summary>
@@ -219,7 +242,11 @@ git add hello.txt
 git commit -m "Changed hello.txt"
 git push origin update
 ```
-6. Have your partner go on Github and submit a PR
-   
-7. You should see their Pull Request when you enter your repo on GitHub!
+6. After running each of these commands, your terimanl output should look similar to the following:
+    ![Image of console output displaying fork creation and modifcation](/guide-to-git/assets/images/Ex6/bash-command.png)
+6. Have your partner go on Github and submit a PR:
+    ![Image of GitHub displaying compare & pull for fork](/guide-to-git/assets/images/Ex6/pull-request.png)
+7. You should see their Pull Request when you enter your repo on GitHub! Your final result should look similar to the following:
+    ![Image of GitHub showing fork merge in the commit history](/guide-to-git/assets/images/Ex6/after-merge.png)
+    *Note that the commit history has a merge, and the commit message made on your fork appears in main.*
 </details>
