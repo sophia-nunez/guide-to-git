@@ -87,7 +87,7 @@ To make this file using bash, enter the following commands:
      ↑ To Intermediate
   </a>
 
-  <a href="/guide-to-git/docs/exercises/#Intermediate" 
+  <a href="/guide-to-git/docs/exercises/#intermediate" 
      style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
      onmouseover="this.style.backgroundColor='#f5f6fa'" 
      onmouseout="this.style.backgroundColor='transparent'">
