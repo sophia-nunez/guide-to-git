@@ -17,7 +17,7 @@ Git is a **version control system** used to keep track of changes in your code o
 
 ---
 
-## What is a Repository
+### What is a Repository
 A **repository** is a project folder that contains your files and a record of their history. Every Git project is based around a **repository**.
 
 - A **local repository** is stored on your computer and is where you store your changes locally.
