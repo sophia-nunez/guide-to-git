@@ -33,7 +33,7 @@ After using this command, you shouldn't see any additional output in the termina
      style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
      onmouseover="this.style.backgroundColor='#f5f6fa'" 
      onmouseout="this.style.backgroundColor='transparent'">
-     ← Back: Git Clone
+     ← Git Clone
   </a>
 
   <a href="/guide-to-git/docs/basics/" 
@@ -47,6 +47,6 @@ After using this command, you shouldn't see any additional output in the termina
      style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
      onmouseover="this.style.backgroundColor='#f5f6fa'" 
      onmouseout="this.style.backgroundColor='transparent'">
-     Next: Git Commit →
+     Git Commit →
   </a>
 </div>
