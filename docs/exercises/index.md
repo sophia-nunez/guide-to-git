@@ -9,7 +9,7 @@ Here are some exercises to apply what you've learned from the guide! You can wor
 {:toc}
 
 ---
-
+# Basics
 ## Exercise 0: Configure Git
 Set up your Git identity! This includes materials from our [Setup](https://sophia-nunez.github.io/guide-to-git/docs/basics/configuration.html#identity-configuration) page.
 
@@ -102,6 +102,7 @@ Make and edit a file, and add this to your remote repository. Use your terminal 
     ![Image of console output displaying configurations](/guide-to-git/assets/images/Ex3/repo-output.png)
 </details>
 
+# Intermediate
 ## Exercise 4: Merge Conflicts (solo)
 Create a repo for yourself. Add a file called conflict.txt, and then get a [merge conflict](https://sophia-nunez.github.io/guide-to-git/docs/intermediate/merge.html) to occur. Bonus points for solving the conflict!
 
@@ -180,6 +181,7 @@ Create a repository for you and your partner, or use the `practice` one. Cause a
 
 </details>
 
+# Advanced
 ## Exercise 5: Create a branch for a repo and create a PR
 Create a repo, or go to your `practice` one, and practice using branches. This refernces our page on [Branches](https://sophia-nunez.github.io/guide-to-git/docs/advanced/branches.html)!
 

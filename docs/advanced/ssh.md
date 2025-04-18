@@ -63,7 +63,10 @@ This step varies depending on your operating system. Click the appropriate link 
      ↑ To Advanced
   </a>
 
-  <p>
-         
-  </p>
+  <a href="/guide-to-git/docs/exercises/#Advanced" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Exercises →
+  </a>
 </div>

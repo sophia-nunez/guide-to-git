@@ -75,7 +75,10 @@ Once you get the output indicating the push was a success, your commits should n
      ↑ To Basics
   </a>
 
-  <p>
-   
-  </p>
+  <a href="/guide-to-git/docs/exercises/#Basics" 
+     style="padding: 6px 12px; border-radius: 4px; text-decoration: none; color: #333; font-weight: 500; transition: background-color 0.2s;" 
+     onmouseover="this.style.backgroundColor='#f5f6fa'" 
+     onmouseout="this.style.backgroundColor='transparent'">
+     Exercises →
+  </a>
 </div>
