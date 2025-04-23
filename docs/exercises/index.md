@@ -68,7 +68,7 @@ Clone your practice repo and enter the workspace so you can edit its contents lo
 1. Find the link to your repo on GitHub (e.g. https://github.com/sophia-nunez/guide-to-git.git)
 2. Enter the following commands
 ```bash
-git clone https://github.com/sophia-nunez/guide-to-git.git
+$ git clone <repository URL>
 cd [repo-name]
 ```
 
