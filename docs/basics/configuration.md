@@ -12,6 +12,31 @@ When using Git, you'll need to configure your identity so that any pushes are un
 
 ---
 
+## View Your Configuration
+To view your current Git settings, use the `--list` flag in your command line, as given below:
+
+```bash
+$ git config --list
+```
+
+This displays a list of all active Git settings, including your name, email, editor, and more. You might see output like:
+
+```bash
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+...
+```
+
+If the list is long, the output will appear one screen at a time. This means that all of the configuration settings will not be visible at first. To view the whole output:
+- Press `Enter` to scroll line by line.
+   - You may need to press this many times to find the setting you're looking for.
+- Press `q` to quit and return to the command line.
+
+---
+
 ## Identity Configuration
 This guide will use global modification of your identity. Doing so lets this identity be used between various programs on your computer.
 
