@@ -44,9 +44,12 @@ Create a private Git repository to track your work on GitHub. This uses content 
 
 1. On GitHub, click **New Repository**
 2. Name it something, such as `practice`
-3. To add a file, click **Add file** --> **Create new file**
-4. Name this something, such as `exercise1.txt` and put text
-5. Click **Commit new file**
+3. Set the privacy to **private**.
+4. Click **Create repository**.
+5. To make a file on GitHub from the new repository page, click the text boxed in red as below:
+    ![Image of new repository page on GitHub with text to add a file boxed in red](/guide-to-git/assets/images/Ex1/add-file.png)
+4. Name this file something, such as `exercise1.txt` and put any text you would like (or none at all!).
+5. Click **Commit new file**.
 6. Your final result should look similar to the following:
     ![Image of GitHub displaying new repository](/guide-to-git/assets/images/Ex1/GitHub-result.png)
 </details>
